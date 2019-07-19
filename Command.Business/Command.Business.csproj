@@ -41,9 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Command\AbsCommand.cs" />
-    <Compile Include="Command\AddRuleCommand.cs" />
-    <Compile Include="Command\CommandManager.cs" />
     <Compile Include="Model\Rule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\CommandService.cs" />

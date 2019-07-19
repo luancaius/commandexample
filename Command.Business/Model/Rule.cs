@@ -11,5 +11,10 @@ namespace Command.Business.Model
         public string Predicate { get; set; }
         public int Number { get; set; }
         public string Text { get; set; }
+
+        public override string ToString()
+        {
+            return Predicate + " " + Number + " " + Text;
+        }
     }
 }
